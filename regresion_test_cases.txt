@@ -1,0 +1,72 @@
+Regression Test Cases
+
+TC_1: Headers links should be working correctly
+Test steps:
+1.Go to https://www.demoblaze.com/
+2.Click all links in the headers
+3.Verify that all links working correctly
+
+TC_2: Company logo image link should be working properly
+1.Go to https://www.demoblaze.com/
+2.Click Company Logo "Product Store"
+3.Go to "Cart" page and click again Company Logo "Product Store"
+4.Verify that link working propertly
+
+
+TC_3: "Home" link should take the user to homepage when clicked
+1.Go to https://www.demoblaze.com/
+2.Click link "Home"
+3.Verify that link working propertly, you are on page Home
+
+
+TC_4: Contact link should open a popup window
+Test steps:
+1. Go to https://www.demoblaze.com/
+2. Click button "Contact"
+3. Should open a popup window
+3. Fill out all fields form "New message" 
+4. Click "Send message" button
+5. Verify that you have window "Thanks for the message!!''
+
+
+TC_5: About Us link should open a popup window with a video
+Test steps:
+1. Go to https://www.demoblaze.com/
+2. Click button "About Us"
+3. Should open a popup window with Video clip
+4. Verify that you have window with Video
+
+TC_6: Cart link should open a separate cart page
+Test steps:
+1. Go to https://www.demoblaze.com/
+2. Click button "Cart"
+3. Should open a separate cart page
+4. Verify that you are on a separate page 
+
+
+TC_7: Log in button should open a popup window to log into the system
+Test steps:
+1. Go to https://www.demoblaze.com/
+2. Click button "Log in"
+3. Should open a popup window with fields "User name", "Password" and 2 buttons "close", "log in"
+4. Verify that you have window with fields "User name", "Password" and 2 buttons "close", "log in"
+
+tc-8: "Sign up" should open a popup window to sign up 
+test steps:
+    1. go to https://www.demoblaze.com
+    2. click the "Sign up" link
+    3. verify the popup window is displayed with sign up form
+
+tc-9: carousel images should changed automatically every 3 sconds
+test steps:
+    1. go to https://www.demoblaze.com
+    2. verify that the carsouel image is changed automatically every 3 sconds
+test steps
+
+tc-10: left and right arrow button should changed the carsouel imaged accordingly
+test steps:
+    1. go to https://www.demoblaze.com
+    2. click the rigth arrow button
+    3. verify that the carsouel imaged is switched to the right one
+    4. click the left arrow button
+    5. verify that the carsouel imaged is switched back to previous one. 
